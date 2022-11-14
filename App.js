@@ -86,7 +86,7 @@ export default function App() {
   );
 }
 
-{/* Estilização */ }
+// Estilização
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -94,35 +94,43 @@ const styles = StyleSheet.create({
   results: {
     flex: 2,
     justifyContent: "center",
-    backgroundColor: "#f5f5f5"
+    backgroundColor: "black"
   },
+
+  //Estilo dos numeros do resultado
   resultText: {
-    color: "#282F38",
+    color: "white",
     fontSize: 32,
     fontWeight: "bold",
     padding: 12,
     textAlign: "right"
   },
-  historyText: {
+
+  //Estilo numeros acima do resultado Ex: 4x2=
+  historyText:{
     color: "#7c7c7c",
     fontSize: 20,
     marginRight: 10,
     alignSelf: 'flex-end',
   },
+
   buttons: {
     flexDirection: 'row',
     flexWrap: 'wrap',
   },
+
+
   button: {
-    backgroundColor: 'white',
+    backgroundColor: '#191970',
     alignItems: 'center',
     justifyContent: 'center',
-    minWidth: 90,
+    minWidth: 90, 
     minHeight: 90,
     flex: 2,
   },
+  
   textButton: {
     color: "#7c7c7c",
     fontSize: 20,
-  }
+  } 
 });
